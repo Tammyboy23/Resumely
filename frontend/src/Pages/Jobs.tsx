@@ -7,7 +7,7 @@ function Jobs() {
             <section className="mb-7 flex items-end justify-between gap-6 max-[680px]:flex-col max-[680px]:items-start max-[680px]:gap-[18px]">
                 <div>
                     <p className="text-[10px] font-bold tracking-[1.15px] text-[#82908a]">STAY ORGANIZED</p>
-                    <h1 className="mt-[10px] wrap-anywhere font-[family-name:var(--font-display)] text-[38px] leading-[1.12] font-normal text-[#202b28] max-[680px]:text-[34px]">Job tracker</h1>
+                    <h1 className="mt-[10px] wrap-anywhere font-grotesk font-bold text-[38px] leading-[1.12] text-[#202b28] max-[680px]:text-[34px]">Job tracker</h1>
                     <p className="mt-[11px] max-w-[530px] wrap-anywhere text-[13px] leading-[1.7] text-[#78827e] max-[680px]:text-xs">Keep the roles you are interested in all in one place.</p>
                 </div>
                 <button className="inline-flex min-h-[43px] items-center justify-center gap-[9px] rounded-[5px] bg-[#2e775b] px-4 text-xs font-semibold text-white opacity-60 cursor-not-allowed max-[680px]:w-full" type="button" disabled><Plus size={17} /> Add a job</button>

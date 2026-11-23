@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom'
-import { BriefcaseBusiness, FilePlus2, House } from 'lucide-react'
+import { BriefcaseBusiness, FilePlus2, House, FileText } from 'lucide-react'
 
 const pages = [
     { name: 'Home', path: '/dashboard', icon: House, end: true },
     { name: 'Jobs', path: '/dashboard/jobs', icon: BriefcaseBusiness, end: false },
-    { name: 'Create', path: '/dashboard/create', icon: FilePlus2, end: false },
+    { name: 'Resumes', path: '/dashboard/create', icon: FileText, end: false },
 ]
 
 function BottomBar() {
